@@ -1,0 +1,166 @@
+/*
+https://colorhunt.co/palette/ff577fff884bffd384fff9b0
+https://colorhunt.co/palette/f9e4d4d67d3e9c0f48470d21
+https://colorhunt.co/palette/e3c770fecd70ffae6df3e0b5
+*/
+/* tag selectors */
+a {
+  color: #FFD384;
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  /*  color: #FF577F; */
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.8rem;
+  font-weight: 400;
+  /*  line-height: 2; */
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  margin: 0 auto 0 auto;
+  color: #E3C770;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+h3 {
+  margin: 0 auto 0 auto;
+  color: #E3C770;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+hr {
+  color: #F3E0B5;
+  border-style: dotted none none;
+  border-width: 7px;
+  margin: 100px auto;
+  width: 5%;
+}
+
+p {
+  /*color: #E3C770;*/
+  color: #321F28;
+  font-family: 'Sorts Mill Goudy', Times New Roman, serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+span {
+  text-decoration: underline;
+}
+
+/* pseudoclass selectors */
+a:hover {
+  color: #FFD384;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #E3C770;
+  text-decoration: underline;
+}
+
+/* class selectors */
+/** container top **/
+.top-container {
+  background-color: #F3E0B5;
+  padding-top: 100px;
+  position: relative;
+}
+
+/** clouds **/
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+}
+
+/** container middle **/
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  background: #F3E0B5;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 200px auto;
+}
+
+.btn:hover {
+  background: #FFD384;
+  text-decoration: none;
+}
+
+.img-skills-01 {
+  float: left;
+  margin: auto 30px 0 auto;
+  width: 20%;
+}
+
+.img-skills-02 {
+  float: right;
+  margin-left: 30px;
+  width: 20%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.middle-container {
+  padding: 100px 0;
+  position: relative;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+/** container bottom **/
+.bottom-container {
+  background-color: #F3E0B5;
+  padding: 50px 0;
+  position: relative;
+}
+
+.bottom-container a {
+  padding: 0 20px 40px;
+}
+
+.bottom-container p {
+  font-size: 0.8rem;
+}
+
+.contact-h3 {
+  margin: 40px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 30px auto;
+}
